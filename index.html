@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星のや / HOSHINOYA</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; color: #2c2c2c; background: #1a1a1a; line-height: 1.8; }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 80px;
+      background: #1a1a1a;
+      color: #fff;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 0.5em;
+      margin-bottom: 24px;
+      color: #e8e0d0;
+    }
+    .hero .catchcopy {
+      font-size: 1.2rem;
+      letter-spacing: 0.25em;
+      color: #c9b99a;
+      margin-bottom: 32px;
+    }
+    .hero .description {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+      line-height: 2.2;
+      color: #999;
+    }
+
+    .info-bar {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.85rem;
+      color: #777;
+      background: #f7f5f2;
+      letter-spacing: 0.1em;
+    }
+
+    .facilities {
+      max-width: 100%;
+      margin: 0 auto;
+      background: #f7f5f2;
+    }
+    .facilities > h2 {
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 400;
+      letter-spacing: 0.3em;
+      padding: 60px 20px 40px;
+      color: #1a1a1a;
+    }
+
+    .facility {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 0 60px;
+    }
+    .facility .image-wrap {
+      width: 100%;
+      max-height: 500px;
+      overflow: hidden;
+    }
+    .facility .image-wrap img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.6s ease;
+    }
+    .facility:hover .image-wrap img {
+      transform: scale(1.03);
+    }
+    .facility .text {
+      text-align: center;
+      padding: 32px 20px 0;
+      max-width: 640px;
+    }
+    .facility h3 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+    }
+    .facility .meta {
+      font-size: 0.8rem;
+      color: #999;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+    }
+    .facility p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 2;
+    }
+    .badge {
+      display: inline-block;
+      background: #c9b99a;
+      color: #fff;
+      font-size: 0.65rem;
+      padding: 2px 10px;
+      border-radius: 2px;
+      margin-left: 8px;
+      vertical-align: middle;
+      letter-spacing: 0.05em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 48px 20px;
+      font-size: 0.8rem;
+      color: #666;
+      background: #1a1a1a;
+      letter-spacing: 0.1em;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2rem; letter-spacing: 0.3em; }
+      .hero .catchcopy { font-size: 1rem; }
+      .facility .image-wrap img { height: 250px; }
+      .facility h3 { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>星 の や</h1>
+    <p class="catchcopy">「その瞬間の特等席へ。」</p>
+    <p class="description">国内外の各星のやでは、その地の風土、歴史、文化を繊細にとらえ、独創的なテーマでもてなします。訪れた時と空間がもたらす最高の瞬間に出合えるラグジュアリーな滞在で、日常から解き放ちます。</p>
+  </section>
+
+  <div class="info-bar">運営: 星野リゾート &emsp;|&emsp; お問い合わせ: 050-3134-8091</div>
+
+  <section class="facilities">
+    <h2>施 設 一 覧</h2>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--dJJu1JP4--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1688636232/1086-DJI_0793_wppmql.jpg" alt="星のや軽井沢">
+      </div>
+      <div class="text">
+        <h3>星のや軽井沢</h3>
+        <p class="meta">長野県軽井沢町星野 &ensp;|&ensp; 77室</p>
+        <p>東京から約1時間、中軽井沢駅からシャトルバスでアクセス。源泉かけ流しの温泉を備えた、軽井沢の自然豊かなリゾートホテル。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--M4AXf5N---/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1686273483/%E6%98%9F%E3%81%AE%E3%82%84%E4%BA%AC%E9%83%BD_%E5%A5%A5%E5%B5%90%E5%B1%B1_vfcdlv.jpg" alt="星のや京都">
+      </div>
+      <div class="text">
+        <h3>星のや京都</h3>
+        <p class="meta">京都府京都市西京区嵐山元録山町 &ensp;|&ensp; 25室</p>
+        <p>京都・嵐山にある全室リバービューの旅館。渡月橋から専用船でアクセス可能。伝統の技と現代の快適性が調和した客室で、四季の催しを楽しむ非日常の滞在を提供。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--_8j5z5tr--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1683612964/fg2205_Thoshi_02_01_wrxgpl.jpg" alt="星のや東京">
+      </div>
+      <div class="text">
+        <h3>星のや東京</h3>
+        <p class="meta">東京都千代田区大手町一丁目9番1号 &ensp;|&ensp; 84室</p>
+        <p>東京・大手町の高級旅館。宿泊者専用温泉と畳ラウンジで和の贅沢を。東京駅徒歩圏内で、都会の喧騒を忘れる上質な時間を提供。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--OLb4MTA9--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1679367971/Cabin_Exterior_-_HOSHINOYA_Fuji_incifs.jpg" alt="星のや富士">
+      </div>
+      <div class="text">
+        <h3>星のや富士</h3>
+        <p class="meta">山梨県南都留郡富士河口湖町大石 &ensp;|&ensp; 40室</p>
+        <p>富士山麓、河口湖畔に佇むラグジュアリーなグランピングリゾート。テラス付きキャビンで、東京から約2時間の非日常体験。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--2TIb5MJQ--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1708412175/%E6%98%9F%E3%81%AE%E3%82%84%E6%B2%96%E7%B8%84_%E3%83%97%E3%83%BC%E3%83%AB_%E7%81%AF%E3%82%8A%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95_weeakl.jpg" alt="星のや沖縄">
+      </div>
+      <div class="text">
+        <h3>星のや沖縄</h3>
+        <p class="meta">沖縄県中頭郡読谷村儀間 &ensp;|&ensp; 100室</p>
+        <p>沖縄・読谷村に佇む全室オーシャンフロントのリゾート。一年中24時間使えるプールと、琉球文化を感じるラグジュアリーな滞在。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--6CQNbhAV--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1695790373/taketomijima_feature_1-3_kxyafv.jpg" alt="星のや竹富島">
+      </div>
+      <div class="text">
+        <h3>星のや竹富島</h3>
+        <p class="meta">沖縄県八重山郡竹富町竹富 &ensp;|&ensp; 48室</p>
+        <p>石垣島から船で約10分。琉球赤瓦のヴィラが並ぶ沖縄・竹富島のラグジュアリーリゾート。24時間利用可能なプールを完備。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--fPRuObFn--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1706871297/%E6%98%9F%E3%81%AE%E3%82%84%E5%A5%88%E8%89%AF%E7%9B%A3%E7%8D%84_%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E5%85%83%E3%83%87%E3%83%BC%E3%82%BF_kogz9d.jpg" alt="星のや奈良監獄">
+      </div>
+      <div class="text">
+        <h3>星のや奈良監獄 <span class="badge">2026年6月 開業予定</span></h3>
+        <p class="meta">奈良県奈良市般若寺町 &ensp;|&ensp; 48室（全室スイート）</p>
+        <p>古都・奈良に建つ日本初、重要文化財の旧監獄を活用したラグジュアリーホテル。舎房を連結した全室スイートの客室で、歴史の記憶を刻む静謐な空間で唯一無二の滞在を提供。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--WfhkZheW--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1682662282/HOSHINOYA_Bali_Panorama_1_1_kapfyo.jpg" alt="星のやバリ">
+      </div>
+      <div class="text">
+        <h3>星のやバリ</h3>
+        <p class="meta">Gianyar, Bali, Indonesia &ensp;|&ensp; 30室</p>
+        <p>世界遺産の棚田を潤す聖なる川のほとり、ウブドを代表するリゾート。バリ建築の集落でお寛ぎください。</p>
+      </div>
+    </article>
+
+    <article class="facility">
+      <div class="image-wrap">
+        <img src="https://media.hoshinoresorts.com/image/authenticated/s--aA-YwcSQ--/c_fill,g_auto,h_810,w_1440/f_auto,q_auto/v1683613526/HOSHINOYA_Guguan_exterior_water_garden_dust_twilight_1_zn2afg.jpg" alt="星のやグーグァン">
+      </div>
+      <div class="text">
+        <h3>星のやグーグァン</h3>
+        <p class="meta">台湾台中市和平区 &ensp;|&ensp; 49室</p>
+        <p>台中にある全室源泉かけ流し露天風呂付客室の温泉リゾート。台北から約2時間半の秘境に位置する自然豊かな施設。</p>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 星野リゾート</p>
+  </footer>
+
+</body>
+</html>
